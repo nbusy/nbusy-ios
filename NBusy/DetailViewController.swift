@@ -2,8 +2,8 @@
 //  DetailViewController.swift
 //  NBusy
 //
-//  Created by Teoman Soygul on 29/10/14.
-//  Copyright (c) 2014 Teoman Soygul. All rights reserved.
+//  Created by Teoman Soygul on 07/08/15.
+//  Copyright (c) 2015 NBusy. All rights reserved.
 //
 
 import UIKit
