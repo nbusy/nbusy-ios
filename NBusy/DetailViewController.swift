@@ -2,8 +2,8 @@
 //  DetailViewController.swift
 //  NBusy
 //
-//  Created by Teoman Soygul on 07/08/15.
-//  Copyright (c) 2015 NBusy. All rights reserved.
+//  Created by Teoman Soygul on 17/09/15.
+//  Copyright © 2015 NBusy. All rights reserved.
 //
 
 import UIKit
@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
+        if let detail = self.detailItem {
             if let label = self.detailDescriptionLabel {
                 label.text = detail.valueForKey("timeStamp")!.description
             }
