@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  NBusy
-//
-//  Created by Teoman Soygul on 17/09/15.
-//  Copyright © 2015 NBusy. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
@@ -13,7 +5,6 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
-
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -63,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         }
         return false
     }
+    
     // MARK: - Core Data stack
 
     lazy var applicationDocumentsDirectory: NSURL = {

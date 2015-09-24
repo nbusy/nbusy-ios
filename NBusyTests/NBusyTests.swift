@@ -1,11 +1,3 @@
-//
-//  NBusyTests.swift
-//  NBusyTests
-//
-//  Created by Teoman Soygul on 17/09/15.
-//  Copyright © 2015 NBusy. All rights reserved.
-//
-
 import XCTest
 @testable import NBusy
 
