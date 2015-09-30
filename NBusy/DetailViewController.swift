@@ -32,8 +32,10 @@ class DetailViewController: UIViewController {
     // MARK: Actions
     
     @IBAction func sendMessage(sender: UIButton) {
-        if let textField = self.messageTextField {
-            textField.text = ""
+        if let messageTextField = self.messageTextField {
+            if let message = messageTextField.text where !message.isEmpty {
+                messageTextField.text = ""
+            }
         }
     }
 
