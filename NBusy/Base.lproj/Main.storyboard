@@ -46,6 +46,9 @@
                                             <constraint firstAttribute="width" constant="30" id="s7U-lB-4gw"/>
                                         </constraints>
                                         <state key="normal" title="➤"/>
+                                        <connections>
+                                            <action selector="sendMessage:" destination="JEX-9P-axG" eventType="touchUpInside" id="YKF-b9-8ZB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
