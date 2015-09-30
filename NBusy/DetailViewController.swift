@@ -3,7 +3,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     // MARK: Properties
-
+    @IBOutlet weak var messageTextField: UITextField!
 
     var detailItem: AnyObject? {
         didSet {
@@ -29,6 +29,8 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK: Actions
+    
 
 }
 
