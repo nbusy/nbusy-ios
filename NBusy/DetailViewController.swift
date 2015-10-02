@@ -41,8 +41,9 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(textField: UITextField) {
-        if let msessage = textField.text {
+        if let message = textField.text where !message.isEmpty {
             // todo: send the message to server
+            textField.text = ""
         }
     }
 
@@ -51,6 +52,7 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
     @IBAction func sendMessage(sender: UIButton) {
         if let messageTextField = self.messageTextField {
             if let message = messageTextField.text where !message.isEmpty {
+                // todo: send the message to server
                 messageTextField.text = ""
             }
         }
