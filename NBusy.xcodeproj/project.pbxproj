@@ -16,6 +16,7 @@
 		AB74037B1BAB14EF0068F162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7403791BAB14EF0068F162 /* LaunchScreen.storyboard */; };
 		AB7403861BAB14F00068F162 /* NBusyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7403851BAB14F00068F162 /* NBusyTests.swift */; };
 		AB7403911BAB14F00068F162 /* NBusyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7403901BAB14F00068F162 /* NBusyUITests.swift */; };
+		AB8B47E21BC402CF00783239 /* ChatControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B47E11BC402CF00783239 /* ChatControl.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AB74038C1BAB14F00068F162 /* NBusyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBusyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7403901BAB14F00068F162 /* NBusyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBusyUITests.swift; sourceTree = "<group>"; };
 		AB7403921BAB14F00068F162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8B47E11BC402CF00783239 /* ChatControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				AB74036B1BAB14EF0068F162 /* AppDelegate.swift */,
+				AB8B47E11BC402CF00783239 /* ChatControl.swift */,
 				AB7403701BAB14EF0068F162 /* MasterViewController.swift */,
 				AB7403721BAB14EF0068F162 /* DetailViewController.swift */,
 				AB7403741BAB14EF0068F162 /* Main.storyboard */,
@@ -267,6 +270,7 @@
 				AB74036C1BAB14EF0068F162 /* AppDelegate.swift in Sources */,
 				AB74036F1BAB14EF0068F162 /* NBusy.xcdatamodeld in Sources */,
 				AB7403711BAB14EF0068F162 /* MasterViewController.swift in Sources */,
+				AB8B47E21BC402CF00783239 /* ChatControl.swift in Sources */,
 				AB7403731BAB14EF0068F162 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +498,7 @@
 				AB7403971BAB14F00068F162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB7403981BAB14F00068F162 /* Build configuration list for PBXNativeTarget "NBusyTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +507,7 @@
 				AB74039A1BAB14F00068F162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB74039B1BAB14F00068F162 /* Build configuration list for PBXNativeTarget "NBusyUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +516,7 @@
 				AB74039D1BAB14F00068F162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
