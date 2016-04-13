@@ -1,4 +1,4 @@
-[![NBusy](https://raw.github.com/nbusy/nbusy/master/client/images/nbusy_large.png)](http://nbusy.com/)
+# NBusy iOS
 
 [![Build Status](https://travis-ci.org/nbusy/nbusy-ios.svg?branch=master)](https://travis-ci.org/nbusy/nbusy-ios)
 
